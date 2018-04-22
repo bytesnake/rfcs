@@ -12,7 +12,7 @@ Build a relation network on top of a distributed and public filesystem, for exam
 
 We want to build a distributed social network, in order to do so the relationships have to be distributed too. Furthermore people should be able to allow other to discover them by some public information. 
 
-For example Leo meets Tom on an event and they shared their identification with each other. They now return to their computers and want to give each other access to their private timeline. After doing so, every other person should still have no access to their timelines.
+For example Leo meets Tom on an event and they shared their identification with each other. They now return to their computers and want to give each other access to their private timeline. The data key should be shared and their relation be anounced. After doing so, every other person should still have no access to their timelines.
 
 
 
