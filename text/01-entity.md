@@ -25,7 +25,7 @@ Such a relation network constists of several parts. First the person need a publ
 
 The missing piece is now some kind of data structure, which allow a fast integrity checking of the whole network. Other technology like blockchain is using a Merkle Tree to achieve a similar effect. Every node contains a hash which is the sum of the hashes of the siblings and the own data. The integrity of the network is given if the signature of the nodes correspond to the data section and public key, and the chain of hashes is valid. This can be checked by everyone and is computationally feasible. We will extend the notion of integrity later on to prevent the removal of a whole node altogether. The nodes are ordered by the public key to allow a log2(n) search. This is an important optimisation, because the lookup of a person is done very regular in a relation network, for example if all friends are checked. Our effort so far to build a relation network can be summarised as:
 
-![alt text](https://raw.githubusercontent.com/bytesnake/rfcs/master/pics/tree_bund.png)
+![alt text](https://raw.githubusercontent.com/bytesnake/rfcs/master/pics/tree_bund.png | width=300)
 
 ## Envelope the current version
 
