@@ -5,15 +5,14 @@
 # Summary
 [summar]: #summary
 
-Build a relation network on top of a distributed and public filesystem, for example IPFS. A person (or group, application, entity) should only be able to change their relations and informations. After the relation is published it should allow a secure exchange of messages or access to a private timeline. This should open the way to a distributed social network.
+Build a relation network on top of a distributed and public filesystem, for example IPFS. A person (or group, application, entity) should only be able to change their relations and informations. After a new relation is published the friend can send messages to you or access the private timeline. This should open the way to a distributed social network.
 
 # Motivation
 [motivation]: #motivation
 
-We want to build a distributed social network, in order to do so the relationships have to be distributed too. Furthermore people should be able to allow other to discover them by some public information. 
+We want to build a distributed social network, in order to do so the relationships have to be distributed too. Furthermore people should be able to allow other to discover them by some kind of public information. 
 
-For example Leo meets Tom on an event and they shared their identification with each other. They now return to their computers and want to give each other access to their private timeline. The data key should be shared and their relation be anounced. After doing so, every other person should still have no access to their timelines.
-
+For example Leo meets Tom on an event, but they forgot to exchange their public key. Leo should be able to search for Tom in the relation network and identify him. He should be able send him a signatured message to be absolutely sure and then announce the relation with him. This should give him access to the private timeline. After doing so, every other person should still have no access to his timeline.
 
 
 # Detailed Description
